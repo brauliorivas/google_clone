@@ -1,19 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+
 }
-.main {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-.main_input {
-    width: 272px;
-}
-input {
-    
-}
+
 ul {
     float: right;
     margin-right: 15px;
@@ -23,4 +13,92 @@ li {
     display: inline;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main__google {
+    display: flex;
+    align-self: center;
+    margin-bottom: 30px;
+}
+.main__input {
+    display: flex;
+    align-self: center;
+    width: 80%;
+    display: flex;
+    margin-bottom: 30px;
+}
+.main__input--enter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #E7E4E4;
+    border-radius: 100px;
+    height: 45px;
+}
+
+.logo_lupa {
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.logo_micro {
+    margin: 20px;
+    width: 15px;
+    height: 20px;
+}
+input {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.main__buttons--space {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #F1EFEF;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 12px 8px 10px;
+    text-align: center;
+    color: #787878;
+    font-size: 15px;
+}
+
+.main__offer {
+    display: flex;
+    justify-content: center;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+footer {
+    display: flex;
+    align-self: start;
+    position: absolute;
+    bottom: 0;
+    flex-direction: wrap;
 }
