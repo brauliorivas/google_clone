@@ -1,12 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
-
+    overflow-x: hidden;
+    font-family: 'Arial';
 }
 
 ul {
     float: right;
     margin-right: 15px;
+    font-size: 13px;
+    color: #464646;
 }
 
 li {
@@ -30,7 +33,7 @@ li {
 .main__input {
     display: flex;
     align-self: center;
-    width: 80%;
+    width: 65%;
     display: flex;
     margin-bottom: 30px;
 }
@@ -67,11 +70,16 @@ input {
 .main__buttons {
     display: flex;
     justify-content: center;
+    font-weight: lighter;
 }
 
 .main__buttons--space {
     display: flex;
     justify-content: center;
+}
+
+.main__buttons--space button {
+    font-size: 15px;
 }
 
 button {
@@ -87,18 +95,61 @@ button {
 .main__offer {
     display: flex;
     justify-content: center;
+    font-size: 12px;
 }
 
+.main__offer a {
+    text-decoration: none;
+}
 .country {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-end;
+    position: absolute;
+    left: 0;
+    bottom: 46px;
+    width: 100%;
+    height: 46px;
+    border-bottom: 1px solid #CFCFCF;;
+    background-color: #E7E7E7;
+    color: #8A8A8A;
+}
+
+.country p {
+    margin-left: 40px;
+    font-size: 15px
 }
 
 footer {
     display: flex;
     align-self: start;
+    background-color: #E7E7E7;
     position: absolute;
+    left: 0;
+    width: 100%;
     bottom: 0;
-    flex-direction: wrap;
+    height: 46px;
+    color: #8A8A8A;
+    font-size: 15px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.right p {
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.left p {
+    margin-left: 20px;
+    margin-right: 20px
 }
