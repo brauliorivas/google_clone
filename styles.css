@@ -10,12 +10,31 @@ ul {
     margin-right: 15px;
     font-size: 13px;
     color: #464646;
+    display: flex;
+    align-items: center;
 }
 
 li {
     display: inline;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dots {
+    margin-left: 6px;
+}
+
+#dot {
+    height: 15px;
+    width: 15px;
+}
+
+#foto {
+    margin-left: 6px;
+    height: 32px;
+    width: 32px;
+    object-fit:cover;
+    border-radius:50%;
 }
 
 .main {
